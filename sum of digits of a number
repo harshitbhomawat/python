@@ -1,0 +1,8 @@
+#sum of all digits of a number
+a=int(input("enter the number: "))
+sum=0
+while(a>0):
+    div=a%10
+    sum=sum+div
+    a=a//10
+print("sum=",sum)
