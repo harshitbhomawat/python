@@ -1,0 +1,9 @@
+#reverse of a number
+a=int(input("enter the number"))
+num=0
+while(a>0):
+    div=a%10
+    num=num*10 + div
+    a=a//10
+print(num)
+
