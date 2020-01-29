@@ -1,0 +1,12 @@
+a=int(input("enter the number"))
+c=a
+sum=0
+while a!=0:
+    sum=sum+pow(a%10,3)
+    a=a//10
+if c==sum:
+    print("it is an armstrong number")
+else:
+    print("not an armstrong number")
+
+
