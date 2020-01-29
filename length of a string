@@ -1,0 +1,2 @@
+string="harshit"
+print(len(string))
