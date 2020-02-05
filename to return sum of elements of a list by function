@@ -1,0 +1,7 @@
+arr=[1,2,3,4,5,6,7]
+def sample(arr,n):
+    sum=0
+    for i in range(0,n):
+        sum=sum+arr[i]
+    return sum
+print(sample(arr,7))
