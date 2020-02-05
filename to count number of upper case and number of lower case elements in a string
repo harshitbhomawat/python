@@ -1,0 +1,10 @@
+name=input()
+n1=0
+n2=0
+for i in range(0,len(name)):
+    if(name[i].islower()):
+        n1=n1+1
+    if(name[i].isupper()):
+        n2=n2+1
+print(n1,"&",n2)
+        
